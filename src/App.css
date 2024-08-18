@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.App{
+    background-color: rgba(2, 6, 37, 0.938);
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-link{
+    display: flex;
+    gap: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav_link{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-section{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-section{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    padding-top: 50px;
+}
+
+.card-img{
+    border-radius: 10px;
+    width: 100%; 
+    height: 200px;
+}
+
+.card{
+    background-color: rgba(33, 37, 63, 0.938);
+    width: 20%;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.date{
+   font-size: 14px;
+   text-align: center;
+   color: gray; 
+}
+
+.page{
+    font-size: 14px;
+    text-align: center;
+    color: white; 
+}
+
+.startUp-section{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    padding-top: 50px;
+}
+.starUp{
+    background-color: rgba(33, 37, 63, 0.938);
+    width: 20%;
+    border-radius: 10px;
+}
+
+.startUp-img{
+    border-radius: 10px;
+    width: 100%; 
+    height: 200px;
+}
+
+.startUp_title{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.startUp-date{
+    font-size: 14px;
+    text-align: center;
+    color: gray; 
+}
+
+.start-page{
+    font-size: 14px;
+    text-align: center;
+    color: white; 
+}
+
+.contact{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+    padding-left: 250px; 
+}
+
+.newsletters{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    padding-left: 250px;
+    padding-bottom: 350px;
 }
